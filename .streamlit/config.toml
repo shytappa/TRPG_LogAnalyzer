@@ -1,0 +1,13 @@
+[server]
+maxUploadSize = 30
+enableStaticServing = true
+
+[theme]
+base = "light"
+
+[client]
+showSidebarNavigation = false
+showErrorDetails = "type"
+
+[browser]
+gatherUsageStats = false
