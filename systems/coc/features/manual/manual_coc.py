@@ -79,12 +79,12 @@ def show_manual():
             with st.expander("**成長しない項目**"):
                 st.markdown(texts.FEATURE_GROW_KIND)
             st.markdown(texts.FEATURE_GROW2)
-        with st.expander("**📋 生ログ一覧 画面**"):
-            st.markdown(texts.FEATURE_LOG)
-        with st.expander("**📉 パラメータ増減 画面**"):
-            st.markdown(texts.FEATURE_PARAMS)
         with st.expander("**🎯 出目の分布 画面**"):
             st.markdown(texts.FEATURE_DICE)
+        with st.expander("**📉 パラメータ増減 画面**"):
+            st.markdown(texts.FEATURE_PARAMS)
+        with st.expander("**📋 生ログ一覧 画面**"):
+            st.markdown(texts.FEATURE_LOG)
 
     # ------------------------------------------------
     # 4. よくある質問 (FAQ)
